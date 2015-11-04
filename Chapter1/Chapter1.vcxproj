@@ -22,7 +22,7 @@
     <ProjectGuid>{712F18F2-D419-4F20-83A0-E7CE5C544854}</ProjectGuid>
     <RootNamespace>Chapter1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>ANSI C exercises</ProjectName>
+    <ProjectName>ANSI-C-K-R-exercises</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -119,7 +119,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="exercise112.c" />
     <ClCompile Include="exercise154.c" />
+    <ClCompile Include="exercise154wordcount.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -10,7 +10,7 @@ Description : Hello World in C, Ansi-style
 
 #include <stdio.h>
 
-int main() {
+int main2() {
 	replaceTabBackspaceBackslash();
 	return 0;
 }

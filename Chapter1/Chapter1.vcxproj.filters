@@ -18,5 +18,11 @@
     <ClCompile Include="exercise154.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="exercise154wordcount.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise112.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
